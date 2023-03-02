@@ -11,6 +11,31 @@ Um uns die manuelle Arbeit für das Setup zu ersparen, wollen wir uns ein Instal
 Beispiel:
 
 ```bash
-# function installLinux {
+function installLinux {
 ```
- 
+
+## Task 2: Hello World
+Stelle dir vor, du hättest noch nie ein Python Script geschrieben. Wie würdest du es schaffen, dass dein Script "Hello World" ausgibt?
+
+### Hints
+* Vergesse nicht, die virtuelle Umgebung zu aktivieren.
+
+
+## Task 3: Calculator
+Erstelle eine Klasse, welche simple Berechnungen ausführen kann. Die Klasse soll folgende Methoden haben:
+- `add(a, b)`: Addiert zwei Zahlen
+- `sub(a, b)`: Subtrahiert zwei Zahlen
+- `mul(a, b)`: Multipliziert zwei Zahlen
+- `div(a, b)`: Dividiert zwei Zahlen
+
+Ausserdem nutzt du pytest, um deine Tests zu schreiben. Jede Methode soll mindestens 5 Tests haben.
+
+Die Tests kannst du folgendermassen ausführen:
+    
+```bash
+pytest ./tasks/03-calculator.py
+```
+
+### Hints
+* Schreibe das Keyword "class" und warte auf die Vervollständigung.
+* Vergesse nicht, pytest zu importieren

@@ -1,8 +1,8 @@
 #! /bin/bash
 
 ## Encrypt solutions with base64
-task_nr="1"
-task="01-*"
+task_nr="2"
+task="02-hello-world.py"
 filename="solutions/${task}"
 echo "Encrypting ${filename}"
-base64 -i ${filename} -o ${task_nr}.base64
+base64 -i ${filename} -o ./solutions/${task_nr}.base64

@@ -86,3 +86,21 @@ Es kann vorkommen, dass der Assistant auch nach mehreren Sekunden noch keine Lö
 
 ### Der AI-Assistent schlägt immer wieder die gleich falsche Lösung vor
 Manchmal werden unbrauchbare Lösungen generiert. Meistens fehlen dem Assistenten zusätzliche Informationen (z.B. Business Logik), welche man zB in Form von Code-Schnippsel oder Kommentaren an der entsprechenden Stelle im Code hinterlegen kann. Ausserdem kann es hilfreich sein, sich die alternativen Lösungsvorschläge anzuschauen.
+
+### Mein Python Script lässt sich nicht ausführen
+Stelle sicher, dass die virtuelle Python-Umgebung aktiviert ist, die Requirements korrekt installiert wurden und die Datei ausführbar ist.
+
+Aktiviere die virtuelle Python-Umgebung:
+```bash
+source venv/bin/activate
+```
+
+Python Datei ausführbar machen:
+```bash
+chmod +x ./tasks/0X_task.py
+```
+
+Stelle sicher, dass die erste Zeile des Python Scripts korrekt ist:
+```python
+#!/usr/bin/env python3
+```
