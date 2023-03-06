@@ -56,3 +56,27 @@ float unknown_function(int n) {
 ```
 
 Leider ist die Funktion für Menschen nicht verständlich. Versuche mit dem AI Assistenten herauszufinden, was die Funktion macht. Im Anschluss sollst du die Funktion in Python portieren und austesten.
+
+## Task 5: Bitcoin Daten anzeigen mit Streamlit
+Streamlit ist eine Python Bibliothek, welche es ermöglicht, Webapps zu erstellen. In diesem Task sollst du eine Webapp erstellen, welche die aktuellen Bitcoin Daten anzeigt.
+
+Du kannst dabei folgende API verwenden:
+`https://api.coingecko.com/api/v3/coins/bitcoin/market_chart?vs_currency=USD&days=10&interval=hourly`
+
+Die Daten sind im JSON Format im folgenden Schema:
+    
+    ```json
+    {
+    "prices": [
+        [timestamp1, price1],
+        [timestamp2, price2],
+        ...
+    ],
+    }
+    ```
+
+### Hints
+* Nutze die `requests` Bibliothek, um die Daten von der API zu holen.
+* Nutze die `pandas` Bibliothek, um die Daten in ein DataFrame mit zwei Spalten zu konvertieren. Die erste Spalte soll den Timestamp enthalten, die zweite Spalte den Preis.
+* Nutze die `streamlit` Bibliothek, um die Daten grafisch darzustellen.
+

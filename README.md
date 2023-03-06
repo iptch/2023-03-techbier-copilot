@@ -85,7 +85,7 @@ Dazu die Tastenkombination `Ctrl + Shift + P` oder `⌘ + Shift + P)` drücken u
 Es kann vorkommen, dass der Assistant auch nach mehreren Sekunden noch keine Lösung vorschlägt. Meistens hilft es, die zusätzliche Anzeige von Copilot zu öffnen. Dazu einfach die Tastenkombination `Ctrl + Shift + P` oder `⌘ + Shift + P)` drücken und `copilot` eingeben. Mit der Option 'Open Github Copilot' sollte ein neues Fenster mit dem Assistant geöffnet werden. Die Synthetisierung der Lösung wird dann nochmals getriggert und man kann zwischen den verschiedenen Lösungsmöglichkeiten auswählen.
 
 ### Der AI-Assistent schlägt immer wieder die gleich falsche Lösung vor
-Manchmal werden unbrauchbare Lösungen generiert. Meistens fehlen dem Assistenten zusätzliche Informationen (z.B. Business Logik), welche man zB in Form von Code-Schnippsel oder Kommentaren an der entsprechenden Stelle im Code hinterlegen kann. Ausserdem kann es hilfreich sein, sich die alternativen Lösungsvorschläge anzuschauen.
+Manchmal werden unbrauchbare Lösungen generiert. Meistens fehlen dem Assistenten zusätzliche Informationen (z.B. Business Logik), welche man zB in Form von Code-Schnippsel oder Kommentaren an der entsprechenden Stelle im Code hinterlegen kann. Ausserdem kann es hilfreich sein, sich die alternativen Lösungsvorschläge anzuschauen. Siehe Frage oben.
 
 ### Mein Python Script lässt sich nicht ausführen
 Stelle sicher, dass die virtuelle Python-Umgebung aktiviert ist, die Requirements korrekt installiert wurden und die Datei ausführbar ist.
