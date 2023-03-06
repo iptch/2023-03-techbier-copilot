@@ -39,3 +39,20 @@ pytest ./tasks/03-calculator.py
 ### Hints
 * Schreibe das Keyword "class" und warte auf die Vervollständigung.
 * Vergesse nicht, pytest zu importieren
+
+## Task 4: Code Understanding and Porting
+Schaue dir folgende Funktion zusammen mit dem AI Assistenten an. 
+
+```c++
+float unknown_function(int n) {
+    float unknown = 0.0;
+    int unknown = 1;
+    for (int i = 1; i < n; i += 2) {
+        unknown += sign * 4.0 / i;
+        sign *= -1;
+    }
+    return unknown;
+}
+```
+
+Leider ist die Funktion für Menschen nicht verständlich. Versuche mit dem AI Assistenten herauszufinden, was die Funktion macht. Im Anschluss sollst du die Funktion in Python portieren und austesten.
