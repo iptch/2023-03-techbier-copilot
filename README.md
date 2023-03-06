@@ -1,11 +1,11 @@
 # Techbier über AI-powered Coding Assistants
 
->**Achtung**: die erste Aufgabe wird es sein, ein Setup Script zu erstellen. Dh. folgende Schritte müssen noch nicht zwingend durchgeführt werden. Bitte dennoch durchlesen. :)
+>**Achtung**: die erste Aufgabe wird es sein, ein Setup Script zu erstellen. Dh. folgende Schritte müssen noch nicht zwingend durchgeführt werden. Bitte dennoch durchlesen. Allerdings ist dies nur mit Copilot möglich, da Codewhisperer noch nicht in der Lage ist, ein Bash oder Powershell Scripte zu schreiben.
 
 ## Setup
 
 ### Python & pip
-Python 3.7.4 und pip werden benötigt, um die Python-Umgebung zu installieren.
+Python 3 und pip werden benötigt, um die Python-Umgebung zu installieren.
 
 Linux:
 ```bash
@@ -13,7 +13,7 @@ sudo apt-get install python3 python3-pip
 ```
 
 Windows:
-* [Python 3.7.4](https://www.python.org/ftp/python/3.7.4/python-3.7.4-amd64.exe) herunterladen und installieren
+* [Python 3](https://www.python.org/ftp/python/3.7.4/python-3.7.4-amd64.exe) herunterladen und installieren
 * [pip](https://bootstrap.pypa.io/get-pip.py) herunterladen und ausführen
 
 Mac:
@@ -73,11 +73,6 @@ Die AI-Assistenten sind in der Lage mehrere Vorschläge zu generieren, damit der
 
 ### Github Copilot und VSCode
 Dazu die Tastenkombination `Ctrl + Shift + P` oder `⌘ + Shift + P)` drücken und `copilot` eingeben. Mit der Option 'Open Github Copilot' sollte ein neues Fenster öffnen.
-
-### CodeWhisperer und VSCode
-Dazu die Tastenkombination `Ctrl + Shift + P` oder `⌘ + Shift + P)` drücken und `codewhisperer` eingeben. Mit der Option 'Open CodeWhisperer' sollte ein neues Fenster öffnen. 
-
-> TODO: überprüfen ob das so funktionert, wurde von Copilot generiert :D 
 
 # Troubleshooting
 

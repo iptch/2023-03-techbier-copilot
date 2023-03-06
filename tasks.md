@@ -1,12 +1,12 @@
 # Tasks
 
-## Task 1: Installations-Script
-Um uns die manuelle Arbeit für das Setup zu ersparen, wollen wir uns ein Installationsscript schreiben.
+## Task 1: Installations-Script (nur mit Copilot)
+Um uns die manuelle Arbeit für das Setup zu ersparen, wollen wir uns ein Installationsscript schreiben. 
 
 ### Hints
 * Erkläre zuoberst im Script, was es High-Level tun soll.
-* Kopiere den entsprechenden Abschnitt des README 1:1 als Kommentar in dieses Script, und schreibe einen zusätzlichen Kommentar, was der Coding Assistant tun soll. Kommentare in Bash beginnen mit `#`. 
-* Wenn der Assistent nicht versteht, was er tun soll, dann gib ihm weitere Hinweise oder einen Startpunk, an dem er anknüpfen kann.
+* Kopiere den entsprechenden Abschnitt des README 1:1 als Kommentar in dieses Script, und schreibe einen zusätzlichen Kommentar, was der Coding Assistant tun soll. Kommentare in Bash beginnen mit `#`. Alternativ kannst du auch schrittweise erkläre, was der Coding Assistant tun soll.
+* Wenn der Assistent nicht versteht, was er tun soll, dann gib ihm weitere Hinweise oder einen Startpunkt, an dem er anknüpfen kann.
 
 Beispiel:
 
@@ -65,18 +65,23 @@ Du kannst dabei folgende API verwenden:
 
 Die Daten sind im JSON Format im folgenden Schema:
     
-    ```json
-    {
+```json
+{
     "prices": [
         [timestamp1, price1],
         [timestamp2, price2],
         ...
     ],
-    }
-    ```
+}
+```
 
 ### Hints
 * Nutze die `requests` Bibliothek, um die Daten von der API zu holen.
-* Nutze die `pandas` Bibliothek, um die Daten in ein DataFrame mit zwei Spalten zu konvertieren. Die erste Spalte soll den Timestamp enthalten, die zweite Spalte den Preis.
-* Nutze die `streamlit` Bibliothek, um die Daten grafisch darzustellen.
+* Nutze `pandas`, um die Daten in ein DataFrame mit zwei Spalten zu konvertieren. Die erste Spalte soll den Timestamp enthalten, die zweite Spalte den Preis.
+* Nutze `streamlit`, um die Daten grafisch darzustellen. Um die Streamlit Applikation zu starten führe folgenden Befehl im Terminal aus:
 
+```bash
+streamlit run ./tasks/05-display-bitcoin-prices.py
+```
+
+Im Anschluss sollte sich ein Fenster öffnen, welches die App anzeigt.
