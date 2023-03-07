@@ -62,8 +62,14 @@ Da sich der AI Assistent an den Lösungen orientieren würde, haben wir die Lös
 
 Um die Lösung der ersten Aufgabe im Terminal auszugeben, folgendes Script ausführen:
 
+Linux oder Mac:
 ```bash
 ./get-solution.sh 1
+```
+
+Windows:
+```powershell
+./get-solution.ps1 1
 ```
 
 # Tips & Tricks
