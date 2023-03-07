@@ -37,7 +37,11 @@ virtualenv -p python3 venv
 
 Virtuelle Umgebung aktivieren:
 ```bash
-source venv/bin/activate
+source venv/bin/activate # Linux oder Mac
+```
+
+```powershell
+venv\Scripts\activate.ps1 # Windows
 ```
 
 Virtuelle Umgebung deaktivieren:
@@ -69,7 +73,8 @@ Linux oder Mac:
 
 Windows:
 ```powershell
-./get-solution.ps1 1
+./get-solution.ps1 1-windows # bei Lösung 1 gibt's eine Windows Variante
+./get-solution.ps1 2 # bei den restlichen ist es die gleiche Lösung wie unter Linux/Mac
 ```
 
 # Tips & Tricks
