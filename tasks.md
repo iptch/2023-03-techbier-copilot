@@ -46,7 +46,7 @@ Schaue dir folgende Funktion zusammen mit dem AI Assistenten an.
 ```c++
 float unknown_function(int n) {
     float unknown = 0.0;
-    int unknown = 1;
+    int sign = 1;
     for (int i = 1; i < n; i += 2) {
         unknown += sign * 4.0 / i;
         sign *= -1;
