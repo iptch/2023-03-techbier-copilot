@@ -85,3 +85,11 @@ streamlit run ./tasks/05-display-bitcoin-prices.py
 ```
 
 Im Anschluss sollte sich ein Fenster öffnen, welches die App anzeigt.
+
+## Task 6: Use GitLabs to analyse and rewrite Code
+
+In diesem Task geht es darum, GitLab zu verwenden, um Code zu analysieren und zu verstehen. Sign up für die gratis Version von GitLab und installiere die GitLab Extension. 
+
+Tipp: Code Highlighten und auf CodeLab klicken.
+
+Versuche nun 06-explain-kotlin.kt zu verstehen und übersetze den Code in eine andere Programmiersprache (e.g. Python).
